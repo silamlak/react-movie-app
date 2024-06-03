@@ -1,0 +1,28 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pdx {
+    @apply px-[30px] max-sm:px-[20px]
+  }
+  .pd {
+    @apply p-[20px] max-sm:p-[10px]
+  }
+  .pdy {
+    @apply px-[30px] max-sm:px-[20px]
+  }
+  .small {
+    @apply w-[450px]
+  }
+  .wd {
+    @apply  max-w-[1440px] w-full mx-auto px-7
+  }
+}
